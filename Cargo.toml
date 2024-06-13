@@ -1,0 +1,13 @@
+[package]
+name = "graphics_playground"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winit = "0.30.0"
+glutin = "0.32.0"
+glow = "0.11.0"
+cgmath = { version = "0.18.0", features = ["swizzle"] }
+
+[profile.dev]
+opt-level = 3
